@@ -107,7 +107,7 @@ namespace Microsoft.SCIM.WebHostSample
                 app.UseDeveloperExceptionPage();
             }
 
-       //     app.UseHsts();
+       //     app.UseHsts();  // This means https so need to disable it as well
 
             app.UseRouting();
        //     app.UseHttpsRedirection();
