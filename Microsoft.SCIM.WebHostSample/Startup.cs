@@ -107,10 +107,10 @@ namespace Microsoft.SCIM.WebHostSample
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHsts();
+       //     app.UseHsts();
 
             app.UseRouting();
-            app.UseHttpsRedirection();
+       //     app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();
 
