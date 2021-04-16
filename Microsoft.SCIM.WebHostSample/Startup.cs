@@ -14,7 +14,7 @@ namespace Microsoft.SCIM.WebHostSample
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
     using Microsoft.IdentityModel.Tokens;
-    using Microsoft.SCIM.WebHostSample.Provider;
+    using Microsoft.SCIM.Provider;
 
     public class Startup
     {

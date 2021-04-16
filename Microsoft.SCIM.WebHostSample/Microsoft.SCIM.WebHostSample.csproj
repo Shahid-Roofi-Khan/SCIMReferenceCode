@@ -5,6 +5,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\**" />
+    <Compile Remove="Provider\**" />
+    <Compile Remove="Resources\**" />
+    <Content Remove="Controllers\**" />
+    <Content Remove="Provider\**" />
+    <Content Remove="Resources\**" />
+    <EmbeddedResource Remove="Controllers\**" />
+    <EmbeddedResource Remove="Provider\**" />
+    <EmbeddedResource Remove="Resources\**" />
+    <None Remove="Controllers\**" />
+    <None Remove="Provider\**" />
+    <None Remove="Resources\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Microsoft.SystemForCrossDomainIdentityManagement\Microsoft.SCIM.csproj" />
   </ItemGroup>
 
